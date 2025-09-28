@@ -41,7 +41,7 @@
       <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
       <version>2.5.0</version>
     </dependency>
-  </dependencies>
+    <dependency>`n    <groupId>org.flywaydb</groupId>`n    <artifactId>flyway-core</artifactId>`n  </dependency>`n  <dependency>`n    <groupId>org.flywaydb</groupId>`n    <artifactId>flyway-database-postgresql</artifactId>`n  </dependency>`n</dependencies>
 
   <dependencyManagement>
     <dependencies>
@@ -52,7 +52,7 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-    </dependencies>
+      <dependency>`n    <groupId>org.flywaydb</groupId>`n    <artifactId>flyway-core</artifactId>`n  </dependency>`n  <dependency>`n    <groupId>org.flywaydb</groupId>`n    <artifactId>flyway-database-postgresql</artifactId>`n  </dependency>`n</dependencies>
   </dependencyManagement>
 
   <build>
@@ -80,3 +80,4 @@
     </plugins>
   </build>
 </project>
+
